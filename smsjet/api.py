@@ -42,7 +42,4 @@ class sms:
 		r = requests.post(url, headers=self.headers, data=json.dumps(data))
 		return r.json()
 
-smsjet = sms("APIKEY")
-
-print(smsjet.send(phone="+61488010808", message="Hello World!"))
 
