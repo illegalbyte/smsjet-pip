@@ -1,2 +1,3 @@
 privatetest.py
 venv/*
+__pycache__/*
